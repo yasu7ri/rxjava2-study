@@ -1,1 +1,1 @@
-# rxjava2-study
+# this repository is for studying rxjava
