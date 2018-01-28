@@ -12,4 +12,7 @@ import java.util.List;
 public interface GitHubService {
     @GET("users/{user}/repos")
     Observable<List<Repo>> ListRepos(@Path("user") String user);
+
+    @GET("users/{user}")
+    Observable<User> User(@Path("user") String user);
 }

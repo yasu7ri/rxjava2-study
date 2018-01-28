@@ -6,9 +6,8 @@ import lombok.Data;
  * Created by yasu7ri on 2018/01/28.
  */
 @Data
-public class Repo {
+public class User {
+    private String login;
     private String id;
     private String name;
-    private String full_name;
-    private String languages_url;
 }
